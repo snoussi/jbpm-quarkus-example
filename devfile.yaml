@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  name: kogito-devfile
+  generateName: kogito-devfile-
 projects:
   - name: jbpm-quarkus-example
     source:
