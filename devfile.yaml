@@ -1,7 +1,12 @@
 apiVersion: 1.0.0
 metadata:
   name: kogito-devfile
+projects:
+  - name: jbpm-quarkus-example
+    source:
+      type: git
+      location: "https://github.com/snoussi/jbpm-quarkus-example"
 components:
   - alias: exec-plugin
     type: chePlugin
-    reference: https://github.com/snoussi/che-plugin-registry/blob/master/v3/plugins/redhat/kogito/0.2.7/meta.yaml
+    reference: https://raw.githubusercontent.com/snoussi/che-plugin-registry/master/v3/plugins/redhat/kogito/0.2.7/meta.yaml
