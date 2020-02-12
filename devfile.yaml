@@ -1,0 +1,7 @@
+apiVersion: 1.0.0
+metadata:
+  name: kogito-devfile
+components:
+  - alias: exec-plugin
+    type: chePlugin
+    reference: https://github.com/snoussi/che-plugin-registry/blob/master/v3/plugins/redhat/kogito/0.2.7/meta.yaml
